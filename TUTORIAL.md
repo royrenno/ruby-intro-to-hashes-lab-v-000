@@ -36,7 +36,10 @@ Now, we will create a new `monopoly` hash, with a `:railroads` key and and empty
 ```ruby
 def monopoly
   monopoly = {
-    railroads: {}
+    railroads:=>
+     {
+       :pieces=>4,
+       :rent_in_dollars=>}
   }
 end
 ```
