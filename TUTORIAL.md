@@ -6,8 +6,7 @@ In the instructions it tells us that this method should return an empty hash. We
 
 ```ruby
 def new_hash
-  new_hash = {
-  }
+  new_hash = {}
 end
 ```
 
